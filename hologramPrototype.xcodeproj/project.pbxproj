@@ -12,6 +12,8 @@
 		E5E269001CBF113900BD782B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E268FE1CBF113900BD782B /* Main.storyboard */; };
 		E5E269021CBF113900BD782B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E269011CBF113900BD782B /* Assets.xcassets */; };
 		E5E269051CBF113900BD782B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E269031CBF113900BD782B /* LaunchScreen.storyboard */; };
+		E5E2690D1CBF27B000BD782B /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2690C1CBF27B000BD782B /* AlarmViewController.swift */; };
+		E5E2690F1CBF27BB00BD782B /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2690E1CBF27BB00BD782B /* Alarm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E5E269011CBF113900BD782B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5E269041CBF113900BD782B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5E269061CBF113900BD782B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E2690C1CBF27B000BD782B /* AlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		E5E2690E1CBF27BB00BD782B /* Alarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				E5E268FA1CBF113900BD782B /* AppDelegate.swift */,
 				E5E268FC1CBF113900BD782B /* ViewController.swift */,
 				E5E268FE1CBF113900BD782B /* Main.storyboard */,
+				E5E2690C1CBF27B000BD782B /* AlarmViewController.swift */,
+				E5E2690E1CBF27BB00BD782B /* Alarm.swift */,
 				E5E269011CBF113900BD782B /* Assets.xcassets */,
 				E5E269031CBF113900BD782B /* LaunchScreen.storyboard */,
 				E5E269061CBF113900BD782B /* Info.plist */,
@@ -137,6 +143,8 @@
 			files = (
 				E5E268FD1CBF113900BD782B /* ViewController.swift in Sources */,
 				E5E268FB1CBF113900BD782B /* AppDelegate.swift in Sources */,
+				E5E2690D1CBF27B000BD782B /* AlarmViewController.swift in Sources */,
+				E5E2690F1CBF27BB00BD782B /* Alarm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
